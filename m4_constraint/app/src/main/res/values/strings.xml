@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">m4_constraint</string>
+    <string name="comp">Наименование композиции!</string>
+    <string name="artist">Исполнитель!</string>
+</resources>

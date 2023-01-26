@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/centerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/place"
+        android:textColor="@color/green"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/counterNumbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="@string/zero"
+        android:textColor="@color/black"
+        android:textSize="80sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/selector_button"
+        android:padding="20dp"
+        android:src="@drawable/remove_image">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/selector_button"
+        android:padding="20dp"
+        android:src="@drawable/add_image">
+
+    </ImageButton>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20sp"
+        android:text="@string/reset"
+        android:textSize="25sp"
+        android:visibility="invisible">
+
+    </Button>
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">m16_architecture</string>
+    <string name="text_veb">Возможная ссылка</string>
+    <string name="text_btnSearch">Поиск идей</string>
+    <string name="text_btnHistory">История поиска</string>
+    <string name="text_scroll">Здесь будут идеи!</string>
+</resources>

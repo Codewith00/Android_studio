@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">m1_hello_world</string>
+    <string name="place">Все места свободны</string>
+    <string name="reset">СБРОС</string>
+    <string name="zero">0</string>
+</resources>

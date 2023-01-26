@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Опросник</string>
+    <string name="str_text_welcome">Пройти QUIZ</string>
+    <string name="start_quiz">Старт</string>
+    <string name="back_btn">Назад</string>
+    <string name="pop">Сброс</string>
+    <string name="send">Отправить</string>
+    <string name="restart_text">Начать заново</string>
+    <string name="welcome_text_quiz_fragment">Можно ставить только высший балл!</string>
+    <string name="locale_language">1</string>
+    <string name="enter_date_of_birth">Введите дату рождения</string>
+    <string name="error_take_answers">Выбраны не все варианты ответов</string>
+    <string name="date_picker_show_text">Введите вашу дату рождения</string>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuezFragment"
+    android:background="@drawable/back_start">
+
+<!--     TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text_welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_text_quiz_fragment"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/textViewRadioGroup1"
+                android:textColor="@color/orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextViewRadioGroup1"
+                android:textSize="20sp"
+                />
+
+            <RadioGroup
+                android:id="@+id/radio_group1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton4" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewRadioGroup2"
+                android:layout_width="wrap_content"
+                android:textColor="@color/orange"
+
+                android:layout_height="wrap_content"
+                android:text="TextViewRadioGroup2"
+                android:textSize="20sp"
+                />
+
+            <RadioGroup
+                android:id="@+id/radio_group2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton4" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewRadioGroup3"
+                android:layout_width="wrap_content"
+                android:textColor="@color/orange"
+
+                android:layout_height="wrap_content"
+                android:text="TextViewRadioGroup3"
+                android:textSize="20sp"
+                />
+
+            <RadioGroup
+                android:id="@+id/radio_group3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton1" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton4" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_btn"
+                android:layout_marginHorizontal="10dp">
+            </Button>
+            <Button
+                android:id="@+id/btn_pop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pop"
+                android:layout_marginHorizontal="10dp"
+                >
+            </Button>
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/send"
+                android:layout_marginHorizontal="10dp"
+                >
+            </Button>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
